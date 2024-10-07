@@ -64,7 +64,7 @@ form.addEventListener("submit", function (event) {
     formObject[key] = value;
   });
 
-  fetch("https://your-backend-url.com/submit", {
+  fetch("https://server.com/send-form", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
