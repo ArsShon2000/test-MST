@@ -17,8 +17,9 @@ console.log(gallery);
 
 function loadImages(paths) {
   paths.forEach((path) => {
-    const imgContainer = document.createElement("div");
+    const imgContainer = document.createElement("a");
     imgContainer.classList.add("image-container");
+    imgContainer.href = ""; 
 
     const imgElement = document.createElement("img");
     imgElement.src = path;
