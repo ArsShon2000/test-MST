@@ -186,8 +186,8 @@ header nav a {
 }
 
 .mstText {
-    margin: auto auto 50px 8%;
-    max-width: 537px;
+    margin: auto 8% 50px 8%;
+    /* max-width: 537px; */
     z-index: 1;
 }
 
@@ -577,6 +577,14 @@ footer nav a {
         font-size: 40px;
     }
 
+    .mst ul {
+        font-size: 18px;
+    }
+
+    .mst span {
+        font-size: 28px;
+    }
+
     .mst p {
         font-size: 22px;
     }
@@ -624,16 +632,22 @@ footer nav a {
         font-size: 33px;
     }
 
+    .mst ul {
+        font-size: 14px;
+    }
+
+    .mst span {
+        font-size: 22px;
+    }
+
     .mst p {
         font-size: 17.5px;
     }
 
     .mstText {
         z-index: 1;
-        margin: 332px auto 50px auto;
-        margin-right: auto;
-        margin-top: 100px;
-        max-width: 337px;
+        margin: 100px 8% 50px 8%;
+        /* max-width: 337px; */
     }
 
     .infoSection img {
@@ -684,6 +698,12 @@ footer nav a {
 }
 
 @media (max-width: 500px) {
+    
+    .mstText {
+        z-index: 1;
+        margin: 100px auto 50px auto;
+        /* max-width: 337px; */
+    }
     .infoText {
         min-width: 300px;
         margin: 2% 10%;
